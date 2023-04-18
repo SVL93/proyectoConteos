@@ -4,10 +4,10 @@ int p(int n){
     int k = 0;
     
     k = 1;
-    do {
+    for ( k = 1 ; k <= n ; k= k+1 ) {
         resultado = resultado * k;
-        k = k + 1;
-    } while  ( k <= n ) 
+      
+    } 
     return resultado;
 }
 
